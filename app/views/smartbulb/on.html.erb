@@ -1,5 +1,6 @@
-<h3>SmartBulb turned on</h3>
+<h3>SmartBulb Control Dashboard</h3>
 <%= link_to '<i class="btn btn-primary btn-lg btn-block active" role="button">ON</i>'.html_safe, :controller => "smartbulb", :action => "on" %>
 <%= link_to '<i class="btn btn-primary btn-lg btn-block" role="button">OFF</i>'.html_safe, :controller => "smartbulb", :action => "off" %>
 <%= link_to '<i class="btn btn-primary btn-lg btn-block" role="button">DISCO</i>'.html_safe, :controller => "smartbulb", :action => "disco" %>
 <%= link_to '<i class="btn btn-primary btn-lg btn-block" role="button">WHITE</i>'.html_safe, :controller => "smartbulb", :action => "white" %>
+<p class="action_msg">SmartBulb now on</p>
