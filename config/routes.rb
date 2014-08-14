@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
     get 'smartbulb/on' => 'smartbulb#on'
+    get 'smartbulb/off' => 'smartbulb#off'
     
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
