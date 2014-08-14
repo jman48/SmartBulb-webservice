@@ -1,0 +1,2 @@
+module SmartbulbHelper
+end
