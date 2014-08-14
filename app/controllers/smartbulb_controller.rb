@@ -2,6 +2,9 @@ class SmartbulbController < ApplicationController
     require 'limitless_led'
     before_action :setUp
     
+    def index        
+    end
+    
     def on
         @bridge.all_on        # all lights are on
     end

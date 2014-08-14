@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+    root 'smartbulb#index'
+    get 'smartbulb/index' => 'smartbulb#index'
     get 'smartbulb/on' => 'smartbulb#on'
     get 'smartbulb/off' => 'smartbulb#off'
     get 'smartbulb/white' => 'smartbulb#white' 

@@ -1,4 +1,5 @@
 <h3>SmartBulb now white</h3>
-<%= link_to "ON", :controller => "smartbulb", :action => "on" %><br/>
-<%= link_to "OFF", :controller => "smartbulb", :action => "off" %><br/>
-<%= link_to "DISCO", :controller => "smartbulb", :action => "disco" %>
+<%= link_to '<i class="btn btn-primary btn-lg btn-block" role="button">ON</i>'.html_safe, :controller => "smartbulb", :action => "on" %>
+<%= link_to '<i class="btn btn-primary btn-lg btn-block" role="button">OFF</i>'.html_safe, :controller => "smartbulb", :action => "off" %>
+<%= link_to '<i class="btn btn-primary btn-lg btn-block" role="button">DISCO</i>'.html_safe, :controller => "smartbulb", :action => "disco" %>
+<%= link_to '<i class="btn btn-primary btn-lg btn-block active" role="button">WHITE</i>'.html_safe, :controller => "smartbulb", :action => "white" %>
